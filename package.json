@@ -64,7 +64,7 @@
     "jsonp": "^0.2.1",
     "navigator-languages": "2.0.2",
     "v-calendar": "2.3.0",
-    "vue": "2.6.12",
+    "vue": "3.2.47",
     "vue-carousel": "0.18.0",
     "vue-i18n": "^8.24.2",
     "vue-instantsearch": "^4.1.1",
