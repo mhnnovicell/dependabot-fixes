@@ -14,7 +14,7 @@
     },
     {
       "matchUpdateTypes": ["major"],
-      "appendLabels": ["renovate::major"],
+      "labels": ["renovate::major"],
       "automerge": false
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "matchUpdateTypes": ["pin"],
-      "appendLabels": ["renovate::pin"],
+      "labels": ["renovate::pin"],
       "automerge": false
     },
   ],
