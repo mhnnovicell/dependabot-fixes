@@ -9,14 +9,24 @@
     "packageRules": [ 
     {
       "matchUpdateTypes": ["patch"],
-      "labels": ["Patch"],
+      "labels": ["renovate::patch"],
       "automerge": false
     },
-    {      
-      "matchUpdateTypes": ["minor"],
-      "labels": ["Minor update"],
+    {
+      "matchUpdateTypes": ["major"],
+      "appendLabels": ["renovate::major"],
       "automerge": false
-    }
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "labels": ["renovate::minor"],
+      "automerge": false
+    },
+    {
+      "matchUpdateTypes": ["pin"],
+      "appendLabels": ["renovate::pin"],
+      "automerge": false
+    },
   ],
    "prConcurrentLimit": 0,
    "prHourlyLimit": 0,
