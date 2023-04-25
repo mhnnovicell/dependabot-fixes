@@ -80,9 +80,9 @@
   "devDependencies": {
     "@intlify/eslint-plugin-vue-i18n": "^0.11.1",
     "@kazupon/vue-i18n-loader": "0.5.0",
-    "@vue/cli-plugin-babel": "4.5.12",
-    "@vue/cli-plugin-eslint": "4.5.12",
-    "@vue/cli-service": "4.5.12",
+    "@vue/cli-plugin-babel": "4.5.19",
+    "@vue/cli-plugin-eslint": "4.5.19",
+    "@vue/cli-service": "4.5.19",
     "@vue/eslint-config-airbnb": "5.3.0",
     "babel-eslint": "10.1.0",
     "babel-plugin-array-includes": "2.0.3",
