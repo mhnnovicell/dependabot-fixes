@@ -74,7 +74,7 @@
     "vue-slider-component": "3.2.11",
     "vue2-gmap-custom-marker": "^6.0.1",
     "vuex": "3.6.2",
-    "vuex-persist": "^1.8.0",
+    "vuex-persist": "^3.0.0",
     "wrangler": "^2.6.2"
   },
   "devDependencies": {
