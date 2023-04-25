@@ -9,10 +9,11 @@
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": false,
       "enabled": false,
-      "updateTypes": ["major"], "addLabels": ["Major update"],
-      "updateTypes": ["minor"], "addLabels": ["Minor update"],
-      "updateTypes": ["patch", "digest", "bump"], "addLabels": ["Patch"],
-      "languages": ["js"], "addLabels": ["Lang JS"]
+      "matchUpdateTypes": ["major"],
+      "labels": ["Major update"],
+      "matchUpdateTypes": ["minor"], "labels": ["Minor update"],
+      "matchUpdateTypes": ["patch", "digest", "bump"], "labels": ["Patch"],
+      "languages": ["js"], "labels": ["Lang JS"]
     }
   ],
    "prConcurrentLimit": 0,
