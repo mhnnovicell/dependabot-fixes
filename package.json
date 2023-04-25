@@ -78,7 +78,7 @@
     "wrangler": "^2.6.2"
   },
   "devDependencies": {
-    "@intlify/eslint-plugin-vue-i18n": "^0.11.1",
+    "@intlify/eslint-plugin-vue-i18n": "^0.15.0",
     "@kazupon/vue-i18n-loader": "0.5.0",
     "@vue/cli-plugin-babel": "4.5.12",
     "@vue/cli-plugin-eslint": "4.5.12",
