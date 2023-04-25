@@ -98,7 +98,7 @@
     "eslint-plugin-vue": "7.8.0",
     "eslint-plugin-vue-i18n": "^0.3.0",
     "path": "0.12.7",
-    "prettier-eslint": "12.0.0",
+    "prettier-eslint": "15.0.1",
     "release-it": "^14.11.8",
     "replace-in-file": "^6.3.2",
     "resize-observer-polyfill": "^1.5.1",
