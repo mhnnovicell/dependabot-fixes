@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "@chenfengyuan/vue-barcode": "^1.0.1",
-    "@microsoft/signalr": "^6.0.7",
+    "@microsoft/signalr": "^7.0.0",
     "@thansen-gruppen/bw-design-system": "^0.6.16",
     "@vue/composition-api": "1.4.9",
     "algoliasearch": "4.8.6",
