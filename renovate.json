@@ -10,14 +10,12 @@
     {
       "matchUpdateTypes": ["patch"],
       "labels": ["Patch"],
-      "automerge": false,
-      "prCreation": "not-pending"
+      "automerge": false
     },
     {      
       "matchUpdateTypes": ["minor"],
       "labels": ["Minor update"],
-      "automerge": false,
-      "prCreation": "not-pending"
+      "automerge": false
     }
   ],
    "prConcurrentLimit": 0,
