@@ -50,7 +50,7 @@
     "@thansen-gruppen/bw-design-system": "^0.6.16",
     "@vue/composition-api": "1.4.9",
     "algoliasearch": "4.8.6",
-    "algoliasearch-helper": "3.4.4",
+    "algoliasearch-helper": "3.12.0",
     "axios": "1.2.2",
     "caniuse-lite": "^1.0.30001480",
     "dayjs": "1.10.4",
