@@ -7,12 +7,12 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": false,
-      "prConcurrentLimit": 0,
-      "prHourlyLimit": 0,
       "enabled": false
     }
   ],
+   "prConcurrentLimit": 0,
+   "prHourlyLimit": 0,
    "rollbackPrs": true,
-   "dependencyDashboard": true,
-   "dependencyDashboardAutoclose": true,
+   "dependencyDashboard": false,
+   "dependencyDashboardAutoclose": false,
 }
