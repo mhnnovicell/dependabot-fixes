@@ -3,7 +3,8 @@
   "extends": [
     "config:base",
     ":disableMajorUpdates",
-    ":rebaseStalePrs"
+    ":rebaseStalePrs",
+    ":dependencyDashboardApproval"
   ],
   "enabledManagers": ["npm"],
     "packageRules": [ 
