@@ -9,22 +9,22 @@
     "packageRules": [ 
     {
       "matchUpdateTypes": ["patch"],
-      "labels": ["renovate::patch"],
+      "labels": ["patch"],
       "automerge": false
     },
     {
       "matchUpdateTypes": ["major"],
-      "labels": ["renovate::major"],
+      "labels": ["major"],
       "automerge": false
     },
     {
       "matchUpdateTypes": ["minor"],
-      "labels": ["renovate::minor"],
+      "labels": ["minor"],
       "automerge": false
     },
     {
       "matchUpdateTypes": ["pin"],
-      "labels": ["renovate::pin"],
+      "labels": ["pin"],
       "automerge": false
     },
   ],
