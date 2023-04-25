@@ -88,7 +88,7 @@
     "babel-plugin-array-includes": "2.0.3",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "cross-env": "^7.0.3",
-    "deepmerge": "^1.5.2",
+    "deepmerge": "^4.0.0",
     "dotenv": "^15.0.0",
     "eslint": ">=1.6.0 <7.0.0",
     "eslint-config-prettier": "8.1.0",
