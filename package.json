@@ -66,7 +66,7 @@
     "v-calendar": "2.3.0",
     "vue": "2.6.12",
     "vue-carousel": "0.18.0",
-    "vue-i18n": "^8.24.2",
+    "vue-i18n": "^9.0.0",
     "vue-instantsearch": "^4.1.1",
     "vue-mq": "1.0.1",
     "vue-recaptcha": "^2.0.1",
