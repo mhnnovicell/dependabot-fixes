@@ -11,5 +11,8 @@
       "prHourlyLimit": 0,
       "enabled": false
     }
-  ]
+  ],
+   "rollbackPrs": true,
+   "dependencyDashboard": true,
+   "dependencyDashboardAutoclose": true,
 }
