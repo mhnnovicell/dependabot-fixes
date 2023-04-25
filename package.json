@@ -83,7 +83,7 @@
     "@vue/cli-plugin-babel": "4.5.12",
     "@vue/cli-plugin-eslint": "4.5.12",
     "@vue/cli-service": "4.5.12",
-    "@vue/eslint-config-airbnb": "5.3.0",
+    "@vue/eslint-config-airbnb": "7.0.0",
     "babel-eslint": "10.1.0",
     "babel-plugin-array-includes": "2.0.3",
     "babel-plugin-transform-remove-console": "^6.9.4",
