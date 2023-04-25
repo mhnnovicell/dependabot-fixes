@@ -3,4 +3,10 @@
   "extends": [
     "config:base"
   ]
+    "packageRules": [
+    {
+      "matchUpdateTypes": ["minor"],
+      "automerge": false
+    }
+  ]
 }
