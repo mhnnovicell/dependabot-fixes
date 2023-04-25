@@ -45,7 +45,7 @@
     "remote-test:add": "npm run remote-test --domain=add"
   },
   "dependencies": {
-    "@chenfengyuan/vue-barcode": "^1.0.1",
+    "@chenfengyuan/vue-barcode": "^2.0.0",
     "@microsoft/signalr": "^6.0.7",
     "@thansen-gruppen/bw-design-system": "^0.6.16",
     "@vue/composition-api": "1.4.9",
