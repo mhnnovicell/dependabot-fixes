@@ -2,5 +2,21 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ]
+  ],
+    "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": false,
+      "enabled": false,
+    { "updateTypes": ["major"], "addLabels": ["Major update"] },
+    { "updateTypes": ["minor"], "addLabels": ["Minor update"] },
+    { "updateTypes": ["patch", "digest", "bump"], "addLabels": ["Patch"] },
+    { "languages": ["js"], "addLabels": ["Lang JS"] }
+    }
+  ],
+   "prConcurrentLimit": 0,
+   "prHourlyLimit": 0,
+   "rollbackPrs": true,
+   "dependencyDashboard": false,
+   "dependencyDashboardAutoclose": false,
 }
