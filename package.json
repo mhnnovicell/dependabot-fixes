@@ -49,7 +49,7 @@
     "@microsoft/signalr": "^6.0.7",
     "@thansen-gruppen/bw-design-system": "^0.6.16",
     "@vue/composition-api": "1.4.9",
-    "algoliasearch": "4.8.6",
+    "algoliasearch": "4.17.0",
     "algoliasearch-helper": "3.4.4",
     "axios": "1.2.2",
     "caniuse-lite": "^1.0.30001480",
