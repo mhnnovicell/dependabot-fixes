@@ -1,6 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    ":disableMajorUpdates"
+  ],
+  "labels": ["dependencies"],
+    "packageRules": [
+    {
+      "automerge": false,
+      "matchUpdateTypes": ["minor"], "labels": ["Minor update"],
+      "matchUpdateTypes": ["patch", "digest", "bump"], "labels": ["Patch"],
+    }
+  ],
+   "prConcurrentLimit": 0,
+   "prHourlyLimit": 0,
+   "dependencyDashboardAutoclose": false,
 }
