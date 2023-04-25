@@ -2,22 +2,27 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    ":disableMajorUpdates"
+    ":disableMajorUpdates",
+    ":rebaseStalePrs"
   ],
+  "enabledManagers": ["npm"],
   "labels": ["dependencies"],
-    "packageRules": [
+    "packageRules": [ 
     {
-      "automerge": false  
+      "matchUpdateTypes": ["patch"],
+      "labels": ["Patch"],
+      "automerge": false,
+      "prCreation": "not-pending",
     },
-      {
-        "matchUpdateTypes": ["minor"], "labels": ["Minor update"]
-      },
-      {
-        "matchUpdateTypes": ["patch", "digest", "bump"], "labels": ["Patch"]
-      }
-  
+    {      
+      "matchUpdateTypes": ["minor"],
+      "labels": ["Minor update"],
+      "automerge": false,
+      "prCreation": "not-pending",
+    }
   ],
    "prConcurrentLimit": 0,
    "prHourlyLimit": 0,
    "dependencyDashboardAutoclose": false,
+   "dependencyDashboard": true
 }
